@@ -97,14 +97,14 @@ body{
 #presentation{
     background-color: #e0e5e9;
     color: #191718;
-    width: 100%;
+    width: 99%;
     text-align: center;
     padding-top: 35px;
     margin-top: 200px;
     height: 300px;
     font-size: 23px;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #presentation p{
     font-weight: 700;
