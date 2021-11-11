@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #191718;
+    color: white;
+
+}
+/*debut de la navbar*/
+#logo{
+    display : inline-block;
+    width: 20%;
+    font-size: 25px;
+    margin-left: 230px;
+}
+#logo h1 a{
+    color: #0a62d0;
+    text-decoration: none;
+}
+#navbar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+#menu{
+    text-align: right;
+    margin-left: auto;
+    align-self: center;
+    margin-right: 230px;
+}
+#navbar #menu ul{
+    display : inline-block;
+    width: 100%;
+    text-align: left;
+}
+#navbar #menu li{
+    list-style: none;
+    display:inline-block;
+}
+#navbar #menu li a{
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 25px;
+    color: #0a62d0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#navbar #menu li a:hover{
+    color: #f3d849;
+    transition: 0.3s;
+}
+/*fin de la navbar*/
+
+#accueil{
+    background-color: #e0e5e9;
+    color: #191718;
+    height: 350px;
+    font-size: 23px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding-top: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#accueil p{
+    font-weight: 700;
+}
+#accueil p a{
+    color: #0a62d0;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+}
+#accueil p a:hover{
+    transform: scale(1.05);
+}
+#accueil p a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+#accueil p a::after{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    height:2px;
+    background-color: currentColor;
+    transform : scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+#presentation{
+    background-color: #e0e5e9;
+    color: #191718;
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 200px;
+    height: 300px;
+    font-size: 23px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#presentation p{
+    font-weight: 700;
+
+}
+
