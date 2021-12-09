@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <nav id="navbar">
-      <div id="logo">
-        <h1>Kevin <a href="">ROGER</a></h1>
-      </div>
-      <div id="menu">
-        <ul>
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#projet">Projets</a></li>
-          <li><a href="#backgroundCompetence">Compétences</a></li>
-          <li><a href="">Formation</a></li>
-          <li><a href="">Expériences</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
 
-    <div id="accueil">
-      <p>
-        Actuellement en BTS Science Numérique option Informatique et Réseaux et aussi
-        équipier polyvalent au McDonald's le week-end en plus des cours.
-        <br>
-        <br>
-        Passioné par la programmation, attiré par les métiers du dévloppement WEB,
-        je réalise des projets et je suis des cours en autodidacte sur la cybersécurité
-        sur mon temps libre.
-        <br>
-        <br>
-        J'aimerais intégrer une école de développement WEB à la fin de mon BTS et pouvoir
-        par la suite vivre de cette passion.
-        <br>
-        <br>
-        Vous pouvez consulter mon <a href="CV/CV_Kevin_Roger.pdf">CV</a> , mes <a href="">compétences</a> ou encore envoyer un <a
-              href="">message</a>.
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio - Kevin</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Kevin ROGER</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">acceuil</a></li>
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#projet">Projet</a></li>
+          <li><a href="#backgroundCompetence">Compétences</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
     </div>
-    <div id="presentation">
-      <h2 id="titre">Présentation</h2>
-      <p>
-        Motivé, passionné par l'informatique depuis plusieurs années et curieux d'en
-        apprendre toujours plus.
-        Je passe une partie de mon temps libre à monter en
-        compétences à travers divers projets.
-        Afin de démontrer certaines compétences en développement Web (notamment HTML,
-        CSS, JS, ReactJS, PHP),
-        je me suis lancé dans la réalisation de ce Portfolio et
-        dans d'autres projets qui apparaîtront un peu plus tard dans la catégorie <a href="#projet">Projets</a>.
-      </p>
-    </div>
-    <div id="projet">
-      <h2 id="titre">Mes Projets</h2>
-      <table>
-        <tr>
-          <td>
-            <div id="projetCAP">
-              <h3>HTML | CSS | JS - Site de running</h3>
-              <br>
-              <br>
-              <p>
+  </nav>
+
+  <div id="accueil">
+    <p>
+      Actuellement en BTS Science Numérique option Informatique et Réseaux et aussi
+      équipier polyvalent au McDonald's le week-end en plus des cours.
+      <br>
+      <br>
+      Passioné par la programmation, attiré par les métiers du dévloppement WEB,
+      je réalise des projets et je suis des cours en autodidacte sur la cybersécurité
+      sur mon temps libre.
+      <br>
+      <br>
+      J'aimerais intégrer une école de développement WEB à la fin de mon BTS et pouvoir
+      par la suite vivre de cette passion.
+      <br>
+      <br>
+      Vous pouvez consulter mon <a href="CV/CV_Kevin_Roger.pdf">CV</a> , mes <a href="">compétences</a> ou encore
+      envoyer un <a href="">message</a>.
+    </p>
+  </div>
+  <div id="presentation">
+    <h2 id="titre">Présentation</h2>
+    <p>
+      Motivé, passionné par l'informatique depuis plusieurs années et curieux d'en
+      apprendre toujours plus.
+      Je passe une partie de mon temps libre à monter en
+      compétences à travers divers projets.
+      Afin de démontrer certaines compétences en développement Web (notamment HTML,
+      CSS, JS, ReactJS, PHP),
+      je me suis lancé dans la réalisation de ce Portfolio et
+      dans d'autres projets qui apparaîtront un peu plus tard dans la catégorie <a href="#projet">Projets</a>.
+    </p>
+  </div>
+  <div id="projet">
+    <h2 id="titre">Mes Projets</h2>
+    <table>
+      <tr>
+        <td>
+          <div id="projetCAP">
+            <h3>HTML | CSS | JS - Site de running</h3>
+            <br>
+            <br>
+            <p>
               Projet realisé durant ma premiere année de <br> BTS SN-IR
               <br>
               <br>
@@ -72,42 +82,44 @@
               2ème étape : Réalisation du programme <br> en CSS.
               <br>
               3ème étape : Finalisation du site grace à du JavaScript.
-              </p>
-              <a id="btnProjet" href="https://kerioz16.github.io/Cours-SNIR/WEB/Module_2_JavaScript/Site_de_running_CAP/acceuil2.html">Afficher</a>
-              <a id="btnProjet" href="https://github.com/kerioz16/Cours-SNIR/tree/main/WEB/Module_2_JavaScript/Site_de_running_CAP">Code</a>
-            </div>
-          </td>
-          <td>
-            <div id="projetPortfolio">
+            </p>
+            <a id="btnProjet"
+              href="https://kerioz16.github.io/Cours-SNIR/WEB/Module_2_JavaScript/Site_de_running_CAP/acceuil2.html">Afficher</a>
+            <a id="btnProjet"
+              href="https://github.com/kerioz16/Cours-SNIR/tree/main/WEB/Module_2_JavaScript/Site_de_running_CAP">Code</a>
+          </div>
+        </td>
+        <td>
+          <div id="projetPortfolio">
             <h3>HTML | CSS | JS - Portfolio (ce site)</h3>
             <br>
             <br>
             <p>
-            Site Web personnel contenant mon portfolio ainsi que mon
-            CV téléchargeable. Il sera souvent modifié afin d'améliorer
-            son design et son contenu, notamment les projets et compétences.
+              Site Web personnel contenant mon portfolio ainsi que mon
+              CV téléchargeable. Il sera souvent modifié afin d'améliorer
+              son design et son contenu, notamment les projets et compétences.
             </p>
             <a id="btnProjet" href="">Afficher</a>
             <a id="btnProjet" href="https://github.com/kerioz16/Portfolio">Code</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div id="backgroundCompetence">
-      <h1 id="titre">Mes Compétences</h1>
-      <br>
-      <br>
-      <div id="allCompetence">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="backgroundCompetence">
+    <h1 id="titre">Mes Compétences</h1>
+    <br>
+    <br>
+    <div id="allCompetence">
       <div id="competence">
-      <p id="titre2">WEB :</p>
+        <p id="titre2">WEB :</p>
         <hr>
         <br>
         <div id="logoWEB">
-      <img src="Image/html.png" alt="">
-      <img src="Image/css.png" alt="">
-      <img src="Image/javascript.png" alt="">
-      <img src="Image/php.png" alt="">
+          <img src="Image/html.png" alt="">
+          <img src="Image/css.png" alt="">
+          <img src="Image/javascript.png" alt="">
+          <img src="Image/php.png" alt="">
         </div>
       </div>
       <div id="competence">
@@ -115,24 +127,24 @@
         <hr>
         <br>
         <div id="logoProg">
-          <img src="Image/python.png" alt="" style="width: ">
+          <img src="Image/python.png">
           <img src="Image/c.png" alt="">
           <img src="Image/c%23.png" alt="">
           <img src="Image/c++.png" alt="">
-      </div>
+        </div>
       </div>
       <div id="competence">
-          <p id="titre2">Logiciel / IDE :</p>
-          <hr>
-          <br>
-          <div id="logoIDE">
-            <img src="Image/visual-studio-code.png" alt="" style="width: ">
-            <img src="Image/webstorm.png" alt="">
-            <img src="Image/vmware.png" alt="">
-          </div>
+        <p id="titre2">Logiciel / IDE :</p>
+        <hr>
+        <br>
+        <div id="logoIDE">
+          <img src="Image/visual-studio-code.png" alt="">
+          <img src="Image/webstorm.png" alt="">
+          <img src="Image/vmware.png" alt="">
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
 
 
 
@@ -142,14 +154,15 @@
 
 
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-  </body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+
 </html>
