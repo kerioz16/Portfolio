@@ -1,0 +1,151 @@
+.projets-section {
+  color: #fff;
+  background-color: #000;
+  background-size: cover;
+  background-image: url('../../assets/img/2.jpg?h=5e2ed884d3b40ecf2b188bb97da874ab');
+}
+
+.site-de-running {
+  background: #ffffff;
+  width: 90%;
+  margin-bottom: 25px;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 95%;
+}
+
+.CAPcontainer {
+  color: rgb(0,0,0);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.CAPtitre {
+  color: rgb(0,0,0);
+  padding-top: 9px;
+}
+
+.btn-aff:hover {
+  border-color: rgb(33,37,41);
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.btn-code:hover {
+  border-color: rgb(66,220,163);
+  background-color: #ffffff;
+  color: #42dca3;
+}
+
+.btn-aff {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-code {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.portfolio {
+  background: #ffffff;
+  width: 90%;
+  padding-bottom: 84px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 95%;
+}
+
+.portfolioContainer {
+  color: rgb(0,0,0);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.portfolioTitre {
+  color: rgb(0,0,0);
+  padding-top: 9px;
+}
+
+.crypto {
+  background: #ffffff;
+  width: 100%;
+  padding-bottom: 84px;
+}
+
+.cryptoContainer {
+  color: rgb(0,0,0);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.cryptoTitre {
+  color: rgb(0,0,0);
+  padding-top: 9px;
+}
+
+.ulProjet {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.crypto {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 95%;
+}
+
+.liCrypto {
+  width: 45%;
+  height: 100%;
+}
+
+.liCAP {
+  width: 45%;
+  height: 100%;
+}
+
+.liPortfolio {
+  width: 45%;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .liPortfolio {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .liCAP {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .liCrypto {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .listCAP {
+    height: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #projets {
+    height: 2100px;
+  }
+}
+
+.btn-link:hover {
+  color: #35b082;
+  transition: 0.5s;
+}
+
