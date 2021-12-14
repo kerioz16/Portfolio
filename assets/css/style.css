@@ -1,8 +1,14 @@
-.projets-section {
+.Competence-section {
   color: #fff;
   background-color: #000;
   background-size: cover;
-  background-image: url('../../assets/img/2.jpg?h=5e2ed884d3b40ecf2b188bb97da874ab');
+}
+
+.projets-section {
+  color: #fff;
+  background-color: #000;
+  background-image: url('assets/img/2.jpg');
+  background-size: cover;
 }
 
 .site-de-running {
@@ -59,6 +65,36 @@
   height: 95%;
 }
 
+.WEB {
+  background: #ffffff;
+  width: 90%;
+  padding-bottom: 84px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 95%;
+}
+
+.Prog {
+  background: #ffffff;
+  width: 90%;
+  padding-bottom: 84px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 95%;
+}
+
+.IDE {
+  background: #ffffff;
+  width: 90%;
+  padding-bottom: 84px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 95%;
+}
+
 .portfolioContainer {
   color: rgb(0,0,0);
   margin-right: 20px;
@@ -66,6 +102,21 @@
 }
 
 .portfolioTitre {
+  color: rgb(0,0,0);
+  padding-top: 9px;
+}
+
+.WEBTitre {
+  color: rgb(0,0,0);
+  padding-top: 9px;
+}
+
+.ProgTitre {
+  color: rgb(0,0,0);
+  padding-top: 9px;
+}
+
+.IDETitre {
   color: rgb(0,0,0);
   padding-top: 9px;
 }
@@ -114,15 +165,93 @@
   height: 100%;
 }
 
+.liWEB {
+  width: 45%;
+  height: 50%;
+}
+
+.liProg {
+  width: 45%;
+  height: 50%;
+}
+
+.liIDE {
+  width: 45%;
+  height: 50%;
+}
+
 @media (max-width: 1200px) {
   .liPortfolio {
     width: 90%;
+    height: 370px;
+  }
+}
+
+@media (max-width: 528px) {
+  .liPortfolio {
+    height: 450px;
   }
 }
 
 @media (max-width: 1200px) {
   .liCAP {
     width: 90%;
+    height: 580px;
+  }
+}
+
+@media (max-width: 528px) {
+  .liCAP {
+    height: 550px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .liCrypto {
+    width: 90%;
+    height: 440px;
+  }
+}
+
+@media (max-width: 528px) {
+  .liCrypto {
+    height: 520px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .portfolio {
+    height: 350px;
+  }
+}
+
+@media (max-width: 528px) {
+  .portfolio {
+    height: 430px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .site-de-running {
+    height: 560px;
+  }
+}
+
+@media (max-width: 528px) {
+  .site-de-running {
+    height: 530px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .crypto {
+    height: 410px;
+  }
+}
+
+@media (max-width: 528px) {
+  .crypto {
+    height: 410px;
   }
 }
 
@@ -132,20 +261,92 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .liWEB {
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .liProg {
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .liIDE {
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
 @media (max-width: 1400px) {
   .listCAP {
     height: 600px;
   }
 }
 
+@media (max-width: 1400px) {
+  .listCompetence {
+    height: 630px;
+  }
+}
+
 @media (max-width: 1200px) {
   #projets {
-    height: 2100px;
+    height: 1700px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #competence {
+    height: 754px;
+  }
+}
+
+@media (max-width: 1400px) {
+  #competence {
+    height: 745px;
+  }
+}
+
+@media (max-width: 992px) {
+  #competence {
+    height: 1340px;
+  }
+}
+
+@media (max-width: 768px) {
+  #competence {
+    height: 1400px;
+  }
+}
+
+@media (max-width: 768px) {
+  #containerFormation {
+    width: 90%;
   }
 }
 
 .btn-link:hover {
   color: #35b082;
   transition: 0.5s;
+}
+
+.icone-competence {
+  width: 65px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.accordion-body {
+  color: #000000;
 }
 
